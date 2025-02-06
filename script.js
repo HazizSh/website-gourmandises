@@ -79,8 +79,3 @@ searchIcon.onclick = onSearchIconClick;
 
 // Copy-right data changer
 document.getElementById('current-year').textContent = new Date().getFullYear();
-// Scale for mobile
-var siteWidth = 1280;
-var scale = screen.width /siteWidth;
-
-document.querySelector('meta[name="viewport"]').setAttribute('content', 'width='+siteWidth+', initial-scale='+scale+'');
