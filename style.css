@@ -201,7 +201,7 @@ body {
 }
 
 .product {
-    width: 80%;
+    width: 50%;
     max-width: 300px; /* Prevent it from getting too big */
     text-align: center;
     padding: 30px;
