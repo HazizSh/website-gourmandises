@@ -21,19 +21,26 @@ body {
 
 @media (max-width: 768px) {
     .titre {
-        font-size: 6vw; /* Bigger on small screens */
+        font-size: 5vw; /* Increase size for smaller screens */
     }
 
     .product-title {
         font-size: 5vw;
     }
 
-    .product {
-        width: 90%;
+    .about-us-title {
+        font-size: 4vw;
     }
 
     .about-us-description {
-        font-size: 4vw;
+        font-size: 3.5vw;
+    }
+}
+
+@media (max-width: 768px) {
+    .product-description,
+    .about-us-description {
+        font-size: 4vw; /* Increase text size */
     }
 }
 /* <---> TITLE <---> */
