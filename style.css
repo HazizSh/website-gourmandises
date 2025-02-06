@@ -36,6 +36,23 @@ body {
     .about-us-description {
         font-size: 3.5vw;
     }
+
+    .product-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); /* 2 products per row */
+        gap: 10px; /* Space between products */
+    }
+
+    .product {
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .product img {
+        width: 100%; /* Make sure images fit */
+        max-width: 150px; /* Prevent images from being too big */
+        height: auto; /* Keep aspect ratio */
+    }
 }
 
 @media (max-width: 768px) {
