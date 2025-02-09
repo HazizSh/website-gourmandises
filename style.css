@@ -19,23 +19,22 @@ body {
     color: transparent;
 }
 
-@media only screen and (max-width: 414px){
-    .product-title{
-        visibility: collapse;
+@media (max-width: 400px) { 
+    .hibiscus-flower{
+        display: none;
     }
 }
+
 /* <---> TITLE <---> */
 .titre {
-    /*Boring*/
     text-transform: uppercase;
-    display: flex;
+    text-align: center;
     justify-content: center;
     gap: 5px;
     transition: transform 0.2s;
     padding: 10px 0 15px;
-    /*Fun*/
     color: wheat;
-    font-size: 3vw;
+    font-size: 40px;
     font-weight: bold;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-shadow: 2px 2px #ff0051;
@@ -160,7 +159,6 @@ body {
 /* <---> Product section <---> */
 .product-title {
     text-align: center;
-    font-size: 2.3vw;
     font-weight: bold;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-shadow: 2px 2px #ff0051;
@@ -277,7 +275,7 @@ body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
     padding-top: 27px;
-    font-size: 2.3vw;
+    font-size: 35px;
     font-weight: bold;
     text-shadow: 2px 2px #ff0051;
     color: rgb(255, 240, 211);
@@ -301,12 +299,12 @@ body {
     overflow: hidden;
     padding-top: 25px;
     padding-bottom: 50px;
-    font-size: 1.5vw;
+    font-size: 20px;
     transform: scale(0.95);
     color: black;
     display: none;
     font-family: Arial, Helvetica, sans-serif;
-    width: 50%;
+    width: 70%;
     opacity: 0;
     transition: all .3s ease-in-out;
 }
